@@ -5,7 +5,8 @@ int count_zero_elements(int matrix[N][N]) {
 
 	for (int i = 0; i < N; i++)
 	{
-		for (int j = 0; j < N; j++) {
+		for (int j = 0; j < N; j++) 
+		{
 			if (matrix[i][j] == 0) {
 				count++;
 			  }
